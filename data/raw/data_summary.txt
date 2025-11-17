@@ -1,0 +1,41 @@
+StatsBomb Pass Data Summary
+==================================================
+
+Total passes: 6723
+Matches: 7
+
+Columns (24):
+  - event_id
+  - event_type
+  - period_id
+  - timestamp
+  - end_timestamp
+  - ball_state
+  - ball_owning_team
+  - team_id
+  - player_id
+  - coordinates_x
+  - coordinates_y
+  - end_coordinates_x
+  - end_coordinates_y
+  - receiver_player_id
+  - set_piece_type
+  - body_part_type
+  - result
+  - success
+  - pass_type
+  - is_under_pressure
+  - is_counter_attack
+  - match_id
+  - home_team
+  - away_team
+
+Pass outcomes:
+
+result:
+result
+COMPLETE      5144
+INCOMPLETE    1309
+OUT            193
+OFFSIDE         29
+Name: count, dtype: int64

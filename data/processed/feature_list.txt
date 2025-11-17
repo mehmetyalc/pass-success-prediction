@@ -1,0 +1,51 @@
+ML Features for Pass Success Prediction
+==================================================
+
+Total features: 46
+
+1. pass_distance
+2. pass_angle
+3. distance_from_own_goal
+4. distance_to_opponent_goal
+5. pass_progression
+6. lateral_movement
+7. is_forward_pass
+8. is_backward_pass
+9. is_long_pass
+10. is_short_pass
+11. is_diagonal_pass
+12. is_cross_field
+13. pass_into_final_third
+14. pass_into_box
+15. is_under_pressure
+16. is_counter_attack
+17. body_part_DROP_KICK
+18. body_part_HEAD
+19. body_part_KEEPER_ARM
+20. body_part_LEFT_FOOT
+21. body_part_OTHER
+22. body_part_RIGHT_FOOT
+23. pass_type_CROSS
+24. pass_type_HAND_PASS
+25. pass_type_HEAD_PASS
+26. pass_type_HIGH_PASS
+27. pass_type_LONG_BALL
+28. pass_type_SHOT_ASSIST
+29. pass_type_THROUGH_BALL
+30. set_piece_CORNER_KICK
+31. set_piece_FREE_KICK
+32. set_piece_GOAL_KICK
+33. set_piece_KICK_OFF
+34. set_piece_THROW_IN
+35. zone_start_defensive
+36. zone_start_middle
+37. zone_start_attacking
+38. zone_end_defensive
+39. zone_end_middle
+40. zone_end_attacking
+41. lateral_start_left
+42. lateral_start_center
+43. lateral_start_right
+44. lateral_end_left
+45. lateral_end_center
+46. lateral_end_right

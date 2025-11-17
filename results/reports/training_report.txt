@@ -1,0 +1,36 @@
+Pass Success Prediction - Model Training Report
+============================================================
+
+Random Forest
+------------------------------------------------------------
+Train Accuracy:     0.8689
+Test Accuracy:      0.7614
+Precision:          0.7766
+Recall:             0.9282
+F1-Score:           0.8457
+ROC-AUC:            0.8368
+CV Accuracy:        0.8415 (+/- 0.0031)
+
+XGBoost
+------------------------------------------------------------
+Train Accuracy:     0.9323
+Test Accuracy:      0.7963
+Precision:          0.8252
+Recall:             0.9017
+F1-Score:           0.8617
+ROC-AUC:            0.8552
+CV Accuracy:        0.8611 (+/- 0.0095)
+
+LightGBM
+------------------------------------------------------------
+Train Accuracy:     0.9260
+Test Accuracy:      0.8043
+Precision:          0.8376
+Recall:             0.8959
+F1-Score:           0.8658
+ROC-AUC:            0.8528
+CV Accuracy:        0.8584 (+/- 0.0069)
+
+
+Best Model (by Test Accuracy):
+  LightGBM - 0.8043
